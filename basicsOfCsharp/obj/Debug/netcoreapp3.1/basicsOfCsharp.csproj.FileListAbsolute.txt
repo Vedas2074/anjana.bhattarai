@@ -1,0 +1,13 @@
+D:\NqwVs\basicsOfCsharp\bin\Debug\netcoreapp3.1\basicsOfCsharp.exe
+D:\NqwVs\basicsOfCsharp\bin\Debug\netcoreapp3.1\basicsOfCsharp.deps.json
+D:\NqwVs\basicsOfCsharp\bin\Debug\netcoreapp3.1\basicsOfCsharp.runtimeconfig.json
+D:\NqwVs\basicsOfCsharp\bin\Debug\netcoreapp3.1\basicsOfCsharp.runtimeconfig.dev.json
+D:\NqwVs\basicsOfCsharp\bin\Debug\netcoreapp3.1\basicsOfCsharp.dll
+D:\NqwVs\basicsOfCsharp\bin\Debug\netcoreapp3.1\basicsOfCsharp.pdb
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.csprojAssemblyReference.cache
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.AssemblyInfoInputs.cache
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.AssemblyInfo.cs
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.csproj.CoreCompileInputs.cache
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.dll
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.pdb
+D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.genruntimeconfig.cache
