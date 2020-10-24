@@ -9,16 +9,25 @@ public abstract class Shape
         Console.WriteLine("Printing details for shape....");
     }
 
-    public class Square : Shape 
+    public class Square : Rectangle
     {
-        public double side { get; set; }
+        //base helps in calling the parent class
+        public Square(double s):base(s,s){
+            base.GetArea();
+        }
+                public double side { get; set; }
         public override double GetArea() => side * side;
         public override double GetPerimeter() => 4* side;
         
     }
 
-    public class Rectangle : Shape 
+    public class Rectangle : Shape // cant get inherited if we use sealed
     {
+        public Rectangle(double l,double b){
+            this.Length=l;
+            this.Breadth=b;
+
+        }
         public double Length { get; set; }
         public double Breadth { get; set; }
         public override double GetArea() => Length * Breadth;
@@ -64,14 +73,6 @@ public abstract class Shape
     {
 
     }
-
-
-
-
-
-
-
-
 
 
 }

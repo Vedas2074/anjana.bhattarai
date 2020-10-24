@@ -1,8 +1,8 @@
 class Person
 {
-    internal string name;
+    string name;
 
-     byte age;
+     byte age=32;
 
     public byte Age 
     {
@@ -19,4 +19,7 @@ class Person
             }
         }
     }
+    //auto implemented property
+    public string Name{get; set;}
+public string address{get;}//readonly property
 }
