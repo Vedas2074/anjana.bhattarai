@@ -11,3 +11,9 @@ D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.csproj.CoreCompil
 D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.dll
 D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.pdb
 D:\NqwVs\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.genruntimeconfig.cache
+D:\lab1 of vedas\anjana.bhattarai\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.csprojAssemblyReference.cache
+D:\lab1 of vedas\anjana.bhattarai\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.AssemblyInfoInputs.cache
+D:\lab1 of vedas\anjana.bhattarai\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.AssemblyInfo.cs
+D:\lab1 of vedas\anjana.bhattarai\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.csproj.CoreCompileInputs.cache
+D:\lab1 of vedas\anjana.bhattarai\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.dll
+D:\lab1 of vedas\anjana.bhattarai\basicsOfCsharp\obj\Debug\netcoreapp3.1\basicsOfCsharp.pdb

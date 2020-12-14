@@ -12,8 +12,8 @@ class Methods
         Sum(4.6f, 4.6f, 5.7f);
         Greet("anjana");
         Greet("anjana", "MR.");
-        byte[] number = { 3, 6, 9, 30, 244 };
-        (byte, byte) result = Find MinMax(number);// if u dunt need min value we can write _ instead of byte min
+        byte[] numbers = { 3, 6, 9, 30, 244 };
+        (byte, byte) result = Find MinMax(numbers);// if u dunt need min value we can write _ instead of byte min
         printCustomerDetails(age: 33, name: "anjana", address: "djsfa", ismale: true);//named arg 
 
     }

@@ -12,7 +12,6 @@ namespace LearningClasses
     {
       this.Name = n;
      this.Address = add;
-        this.Age= a;
      }
       public Person(string n, string add, byte a)
     {
@@ -21,8 +20,8 @@ namespace LearningClasses
         this.Age= a;
      }
    
-    public int Name { get; set; }
-    public int Address { get; set; }
-     public int Age { get; set; }    
+    public string Name { get; set; }
+    public string Address { get; set; }
+     public byte Age { get; set; }    
      }
 }
