@@ -1,0 +1,40 @@
+@model Person// this is the model bind with another add view
+@{
+    ViewData["TitlePhrase"]="Add employee";
+}
+<h3>adding new employeees</h3>
+
+<hr/>
+<form asp-controller="Employee" asp-action="Add" method="Post">
+  <div class="mb-3">
+    <label asp-for="Firstname"></label>
+    <span class="text-danger"  asp-validation-for="Firstname"></span>
+    <input type="text" class="form-control"  asp-for="Firstname" placeholder="enter your first name">
+  </div>
+  <div class="mb-3">
+    <label asp-for="Lastname"></label>
+    
+    <span asp-validation-for="Lastname"></span>
+    <input type="text" class="form-control" asp-for="Lastname" placeholder="enter your last name">
+  </div>
+  <div class="mb-3">
+    <label asp-for="Addressname"></label>
+    <textarea  class="form-control" asp-for="Addressname" placeholder="enter your address"></textarea>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Gender"></label>
+    <input type="text" class="form-control" asp-for="Gender" placeholder="gender">
+  </div>
+  <div class="mb-3">
+    <label asp-for="Contact"></label>
+    <input type="number" class="form-control" asp-for="Contact" placeholder="enter your contacat num">
+  </div>
+  <div class="mb-3">
+    <label asp-for="Salary"></label>
+    <input type="number" class="form-control" asp-for="Salary" placeholder="enter your salary">
+  </div>
+  
+  
+    
+  <button type="submit" class="btn btn-primary">Save employee</button>
+</form>

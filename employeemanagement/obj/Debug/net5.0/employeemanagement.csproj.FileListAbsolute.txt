@@ -38,3 +38,6 @@ D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\ref\employ
 D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\employeemanagement.pdb
 D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\employeemanagement.genruntimeconfig.cache
 D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\employeemanagement.csproj.CopyComplete
+D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\Razor\Views\Employee\index.cshtml.g.cs
+D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\Razor\Views\Employee\Detail.cshtml.g.cs
+D:\lab1 of vedas\anjana.bhattarai\employeemanagement\obj\Debug\net5.0\Razor\Views\Employee\Add.cshtml.g.cs

@@ -15603,6 +15603,11 @@
   "RootNamespace": "employeemanagement",
   "Documents": [
     {
+      "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\employeemanagement\\Views\\Employee\\Detail.cshtml",
+      "TargetPath": "Views\\Employee\\Detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\employeemanagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15623,8 +15628,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\employeemanagement\\Views\\Employee\\index.cshtml",
+      "TargetPath": "Views\\Employee\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\employeemanagement\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\employeemanagement\\Views\\Employee\\Add.cshtml",
+      "TargetPath": "Views\\Employee\\Add.cshtml",
       "FileKind": "mvc"
     },
     {
