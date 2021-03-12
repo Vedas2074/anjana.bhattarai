@@ -13,7 +13,7 @@ class Methods
         Greet("anjana");
         Greet("anjana", "MR.");
         byte[] number = { 3, 6, 9, 30, 244 };
-        (byte, byte) result = Find MinMax(number);// if u dunt need min value we can write _ instead of byte min
+        (byte, byte) result = FindMinMax(number);// if u dunt need min value we can write _ instead of byte min
         printCustomerDetails(age: 33, name: "anjana", address: "djsfa", ismale: true);//named arg 
 
     }
@@ -51,13 +51,14 @@ class Methods
     }
 
     // returning multiple values:using  tuples
-    (byte, byte) Find MinMax(byte[] numbers)
-    {
-        byte max = numbers.Max();
-        byte min = numbers.Min;
-        return (max, min);
+    (byte, byte) FindMinMax(byte[] numbers)
+        {
+            byte max = numbers.Max();
+            byte min = numbers.Min();
 
-    }
+            return (min, max);
+        }
+        
     void printCustomerDetails(string name, string address, byte age, bool ismale)
     {
         Console.WriteLine($"{name}[{address}],{age}");
