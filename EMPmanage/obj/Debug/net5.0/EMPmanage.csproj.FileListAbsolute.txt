@@ -40,3 +40,4 @@ D:\lab1 of vedas\anjana.bhattarai\EMPmanage\obj\Debug\net5.0\EMPmanage.genruntim
 D:\lab1 of vedas\anjana.bhattarai\EMPmanage\obj\Debug\net5.0\EMPmanage.csproj.CopyComplete
 D:\lab1 of vedas\anjana.bhattarai\EMPmanage\obj\Debug\net5.0\Razor\Views\Employees\Index.cshtml.g.cs
 D:\lab1 of vedas\anjana.bhattarai\EMPmanage\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
+D:\lab1 of vedas\anjana.bhattarai\EMPmanage\obj\Debug\net5.0\Razor\Views\Employees\Add.cshtml.g.cs
