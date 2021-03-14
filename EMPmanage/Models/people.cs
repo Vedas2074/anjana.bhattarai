@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class People
 {
     public int SN { get; set; }
@@ -6,5 +8,19 @@ public class People
     public string Address { get; set; }
     public char Gender { get; set; }
     public double Salary { get; set; }
+    public static List<People>GetEmployes()
+    {
+        
 
+            People emp1 = new People(){Fname = "anjana",Lname = "bhatt",Gender = 'F', Address = "dhpakhel",Salary = 32322.0 };
+//obj initializes
+        People emp2 = new People()//obj initializes
+        { SN=2,Fname = "anjana",Lname = "bhatt", Gender = 'F', Address = "dhpakhel", Salary = 32322.0 };
+        People emp3 = new People()//obj initializes
+        { SN=3,Fname = "anjana", Lname = "bhatt", Gender = 'F', Address = "dhpakhel", Salary = 32322.0 };
+        People emp4 = new People()//obj initializes
+        { SN=4, Fname = "anjana", Lname = "bhatt",Gender = 'F', Address = "dhpakhel", Salary = 32322.0};
+        List<People> employeeList = new List<People>() { emp1, emp2, emp3, emp4 };
+        return employeeList;
+    }
 }

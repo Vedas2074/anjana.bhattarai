@@ -15613,6 +15613,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\EMPmanage\\Views\\Employees\\Details.cshtml",
+      "TargetPath": "Views\\Employees\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\lab1 of vedas\\anjana.bhattarai\\EMPmanage\\Views\\Employees\\Index.cshtml",
       "TargetPath": "Views\\Employees\\Index.cshtml",
       "FileKind": "mvc"
