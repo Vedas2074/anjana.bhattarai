@@ -1,0 +1,17 @@
+
+@model People
+<h1>Employee detail</h1>
+ <h2>Are you sure to delete?</h2>
+<ul class="list-group">
+  <li class="list-group-item">Firstname:@Model.Firstname</li>
+  <li class="list-group-item">Lastname:@Model.Lastname</li>
+  <li class="list-group-item">Address:@Model.Address</li>
+  <li class="list-group-item">Gender:@Model.Gender</li>
+  <li class="list-group-item">Salary:@Model.Salary</li>
+</ul>
+<form asp-controller="Employees" asp-action="Delete" method="POST">
+   <input type="hidden" asp-for="Id"/>
+  <button type="submit" class="btn btn-danger">Delete employee</button>
+</form>
+
+

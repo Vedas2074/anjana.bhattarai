@@ -17,6 +17,8 @@
       <td class="table-active">Address</td>
       <td class="table-active">Gender</td>
       <td class="table-active">Salary</td>
+      <th></th>
+      <th></th>
     </tr>
 </thead>
 
@@ -27,11 +29,13 @@
       <td>
         <a href="/employees/details?firstname=@Model[i].Firstname">@Model[i].Firstname</a>
         </td>
-     <td>@Model[i].SN </td>
       <td>@Model[i].Lastname </td>
       <td>@Model[i].Address</td>
       <td>@Model[i].Gender</td>
       <td>@Model[i].Salary</td>
+      <td><a class="btn-warning" href="/Employee/Edit?id=Employees.Id">Edit </a></td>
+  <td><a class="btn-danger" href="/Employee/Delete?id=Employee.Id">Delete </a></td>
+    
     </tr>
   }
 

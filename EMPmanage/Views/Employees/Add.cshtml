@@ -1,11 +1,13 @@
 @model People// this is the model bind with another add view
 @{
     ViewData["TitlePhrase"]="Add employee";
+    string[] genders={"male","female","others"};
 }
 <h3>adding new employeees</h3>
 
 <hr/>
 <form asp-controller="Employees" asp-action="Add" method="Post">
+  
   <div class="mb-3">
     <label asp-for="Firstname"></label>
     <span class="text-danger"  asp-validation-for="Firstname"></span>
@@ -22,8 +24,13 @@
   </div>
   <div class="mb-3">
     <label asp-for="Gender"></label>
-    <input type="text" class="form-control" asp-for="Gender" placeholder="gender">
-  </div>
+    @foreach (var gender in genders)
+    {     <div class="form-check-inline">
+         <input type="radio" class="form-check-input" asp-for="Gender" id="@gender" value="@genders[0]"/>
+      <label class="form-check-label" asp-for="@gender">@gender</label>
+      </div>
+       }
+     </div>
   <div class="mb-3">
     <label asp-for="Salary"></label>
     <input type="number" class="form-control" asp-for="Salary" placeholder="enter your salary">

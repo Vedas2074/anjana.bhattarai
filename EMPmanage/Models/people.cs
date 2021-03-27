@@ -3,7 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 public class People
 {
-    public int SN { get; set; }
+
+  public int Id { get; set; }
+
 
     [Display( Name="First Name")]
      [Required(ErrorMessage="firstname is required")] 
@@ -20,11 +22,11 @@ public class People
     { People emp1 = new People(){Firstname = "anjana",Lastname = "bhatt",Gender = 'F', Address = "dhpakhel",Salary = 32322.0 };
     //obj initializes
      People emp2 = new People()//obj initializes
-     { SN=2,Firstname = "anjana",Lastname = "bhatt", Gender = 'F', Address = "dhpakhel", Salary = 32322.0 };
+     { Firstname = "anjana",Lastname = "bhatt", Gender = 'F', Address = "dhpakhel", Salary = 32322.0 };
     People emp3 = new People()//obj initializes
-    { SN=3,Firstname = "anjana", Lastname = "bhatt", Gender = 'F', Address = "dhpakhel", Salary = 32322.0 };
+    {Firstname = "anjana", Lastname = "bhatt", Gender = 'F', Address = "dhpakhel", Salary = 32322.0 };
      People emp4 = new People()//obj initializes
-    { SN=4, Firstname = "anjana", Lastname = "bhatt",Gender = 'F', Address = "dhpakhel", Salary = 32322.0};
+    { Firstname = "anjana", Lastname = "bhatt",Gender = 'F', Address = "dhpakhel", Salary = 32322.0};
     List<People> employeeList = new List<People>() { emp1, emp2, emp3, emp4 };
         
         return employeeList;
